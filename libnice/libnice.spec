@@ -7,7 +7,6 @@ Group:          System Environment/Libraries
 License:        LGPLv2 and MPLv1.1
 URL:            http://nice.freedesktop.org/wiki/
 Source0:        http://nice.freedesktop.org/releases/%{name}-%{version}.tar.gz
-Patch1:         libnice-0.1.13-20160610.patch
 
 BuildRequires:	glib2-devel
 BuildRequires:  gnutls-devel >= 2.12.0
@@ -124,7 +123,7 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 
 
 %changelog
-* Wed Nov 29 2017 Brian J. Murrell <brian@interlinx.bc.ca> - 0.1.14-0.01
+* Wed Nov 29 2017 Brian J. Murrell <brian.murrell@intel.com> - 0.1.14-0.01
 - Update to 0.1.14
 
 * Fri Feb 10 2017 Fedora Release Engineering <releng@fedoraproject.org> - 0.1.13-8
